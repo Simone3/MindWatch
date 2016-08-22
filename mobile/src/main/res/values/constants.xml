@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- SETTINGS KEYS -->
+    <string name="games_category_key" translatable="false">settings_games_category</string>
+    <string name="difficulty_key" translatable="false">difficulty</string>
+    <string name="notifications_category_key" translatable="false">settings_notifications_category</string>
+    <string name="from_button_key" translatable="false">from_time_picker_button</string>
+    <string name="to_button_key" translatable="false">to_time_picker_button</string>
+    <string name="hour_pickers_key" translatable="false">hour_pickers_key</string>
+    <string name="days_key" translatable="false">days</string>
+    <string name="frequency_key" translatable="false">frequency</string>
+    <string name="user_points_key" translatable="false">user_points-%1$s</string>
+    <string name="current_game_number_key" translatable="false">current_game_number_key</string>
+    <string name="first_run_key" translatable="false">first_run_key</string>
+    <string name="current_solved_games_number_key" translatable="false">current_solved_games_number_key</string>
+    <string name="today_points_balance_key" translatable="false">today_points_balance_key</string>
+    <string name="games_scheduled_today" translatable="false">games_scheduled_today</string>
+
+    <!-- SETTINGS DEFAULT VALUES -->
+    <string name="default_difficulty" translatable="false">2</string>
+    <string name="default_frequency" translatable="false">10</string>
+
+    <!-- COMMUNICATION IDS (must be the same in Wear constants.xml) -->
+    <string name="shared_game_data_request_name" translatable="false">/shared_game_data_request_name</string>
+    <string name="shared_game_message_name" translatable="false">/shared_game_message_name</string>
+    <string name="shared_content_image" translatable="false">/shared_content_image</string>
+    <string name="shared_option_image_prefix" translatable="false">/shared_option_image-</string>
+    <string name="game_result_message_name" translatable="false">game_result_message_name</string>
+    <string name="fake_message_phone_to_wear_name" translatable="false">fake_message_phone_to_wear_name</string>
+
+    <!-- ALARM IDS -->
+    <string name="notification_action" translatable="false">it.polimi.aui.auiapp.NOTIFICATION</string>
+    <string name="midnight_action" translatable="false">it.polimi.aui.auiapp.MIDNIGHT</string>
+    <string name="alarm_unique_name_prefix" translatable="false">it.polimi.aui.auiapp.alarm-</string>
+
+</resources>

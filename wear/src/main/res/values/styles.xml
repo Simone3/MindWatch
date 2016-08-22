@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Game content -->
+    <style name="ContentContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <!--<item name="android:padding">@dimen/timer_stroke_width</item>-->
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- Game options -->
+    <style name="OptionsContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="OptionsTable">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/timer_stroke_width</item>
+        <item name="android:shrinkColumns">*</item>
+        <item name="android:stretchColumns">*</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- Timers -->
+    <style name="ShapeTimer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="SquareTimer" parent="ShapeTimer">
+        <item name="squareColor">@color/colorPrimary</item>
+        <item name="squareStrokeWidth">@dimen/timer_stroke_width</item>
+    </style>
+    <style name="CircleTimer" parent="ShapeTimer">
+        <item name="circleColor">@color/colorPrimary</item>
+        <item name="circleStrokeWidth">@dimen/timer_stroke_width</item>
+    </style>
+
+</resources>

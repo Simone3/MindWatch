@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- SETTINGS: DIFFICULTY -->
+    <string-array name="difficulties_array">
+        <item>Easy</item>
+        <item>Normal</item>
+        <item>Hard</item>
+    </string-array>
+    <string-array name="difficulty_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- SETTINGS: DAYS -->
+    <string-array name="default_days_values" translatable="false">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+
+    <!-- SETTINGS: GAMES PER DAY -->
+    <string-array name="frequency_array" translatable="false">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+
+    <!-- SIDEBAR OPTIONS -->
+    <string-array name="drawer_options_titles">
+        <item>Training</item>
+        <item>Progress</item>
+    </string-array>
+    <string-array name="drawer_options_icons" translatable="false">
+        <item>@drawable/ic_drawer_profile_points</item>
+        <item>@drawable/ic_drawer_profile_progress</item>
+    </string-array>
+
+    <!-- USER LEVEL -->
+    <string-array name="user_levels_min_points" translatable="false">
+        <item>0</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>500</item>
+    </string-array>
+    <string-array name="user_level_names">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Talented</item>
+        <item>Skillful</item>
+        <item>Expert</item>
+    </string-array>
+
+</resources>

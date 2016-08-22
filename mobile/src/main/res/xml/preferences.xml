@@ -1,0 +1,46 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- move stuff to strings! android:key too -->
+
+    <PreferenceCategory
+        android:title="@string/games_category_title"
+        android:key="@string/games_category_key">
+
+        <ListPreference
+            android:title="@string/difficulty_preference_name"
+            android:summary="%s"
+            android:key="@string/difficulty_key"
+            android:defaultValue="@string/default_difficulty"
+            android:entries="@array/difficulties_array"
+            android:entryValues="@array/difficulty_values" />
+
+        <ListPreference
+            android:title="@string/frequency_preference_name"
+            android:summary="%s"
+            android:key="@string/frequency_key"
+            android:defaultValue="@string/default_frequency"
+            android:entries="@array/frequency_array"
+            android:entryValues="@array/frequency_array" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/notifications_category_title"
+        android:key="@string/notifications_category_key">
+
+        <Preference
+            android:title="@string/hours_preference_name"
+            android:key="@string/hour_pickers_key"/>
+
+        <MultiSelectListPreference
+            android:title="@string/days_preference_name"
+            android:key="@string/days_key"
+            android:summary="@string/days_all"
+            android:defaultValue="@array/default_days_values"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
+
+

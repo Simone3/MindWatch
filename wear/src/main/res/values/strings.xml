@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- GENERAL -->
+    <string name="app_name" translatable="false">MindWatch</string>
+    <string name="title_activity_game">Game</string>
+
+    <!-- NOTIFICATIONS -->
+    <string name="challenge_notification_title">Challenge</string>
+    <string name="challenge_notification_content">Want to play?</string>
+
+    <!-- GAME RESULTS -->
+    <string name="game_result_wrong">Wrong!</string>
+    <string name="game_result_right">Correct!</string>
+    <string name="game_result_timeout">Time\'s Up!</string>
+
+</resources>

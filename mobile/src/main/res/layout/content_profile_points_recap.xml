@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/RecapTitle"
+            android:text="@string/total_user_points_info"/>
+
+        <TextView
+            style="@style/RecapValue"
+            android:id="@+id/total_points"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/RecapTitle"
+            android:text="@string/today_user_points_balance"/>
+
+        <TextView
+            style="@style/RecapValue"
+            android:id="@+id/points_today_balance"/>
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/RecapSingle"
+        android:layout_weight="1"
+        android:id="@+id/user_level_name"/>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- - - - - - - - - - - - - - - - THEMES - - - - - - - - - - - - - - - -->
+
+    <!-- APPLICATION THEME -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <!-- - - - - - - - - - - - - - - - STYLES - - - - - - - - - - - - - - - -->
+
+    <!-- TITLES -->
+    <style name="Title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:padding">@dimen/title_text_padding</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- PROGRESS BARS -->
+    <style name="ProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:layout_width">@dimen/old_api_progress_bar_width</item>
+        <item name="android:layout_height">@dimen/progress_bar_height</item>
+        <item name="android:padding">@dimen/progress_bar_padding</item>
+        <item name="android:layout_gravity">fill_horizontal</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="ProgressBarLabel">
+        <item name="android:layout_width">@dimen/old_api_progress_bar_label_width</item>
+        <item name="android:layout_height">@dimen/progress_bar_height</item>
+        <item name="android:layout_gravity">fill_horizontal</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- RECAP (POINTS AND TODAY PROGRESS) -->
+    <style name="CommonRecapStyle">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textSize">@dimen/points_recap_text_size</item>
+        <item name="android:padding">@dimen/points_recap_text_padding</item>
+        <!--<item name="android:textStyle">bold</item>-->
+    </style>
+    <style name="RecapTitle" parent="@style/CommonRecapStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="RecapValue" parent="@style/CommonRecapStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="RecapSingle" parent="@style/CommonRecapStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+</resources>
